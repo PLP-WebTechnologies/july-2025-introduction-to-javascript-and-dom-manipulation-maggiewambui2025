@@ -1,0 +1,23 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 20px;
+  background: #fdfdfd;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+input, button {
+  padding: 8px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+h1 {
+  color: #e91e63;
+}
+
+p {
+  font-weight: bold;
+}

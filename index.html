@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Peggy Baby Shop </title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Peggy Baby Shop </h1>
+
+  <!-- 🎯 Part 1: Basic Input -->
+  <section>
+    <h2>Welcome to Peggy Baby Shop</h2>
+    <label for="customerName">Enter your name:</label>
+    <input type="text" id="customerName" />
+    <button onclick="welcomeCustomer()">Submit</button>
+    <p id="welcomeMsg"></p>
+  </section>
+
+  <!-- ❤️ Part 2: Functions -->
+  <section>
+    <h2>Calculate Total Price</h2>
+    <input type="number" id="itemPrice" placeholder="Price per item (Ksh)" />
+    <input type="number" id="itemQty" placeholder="Quantity" />
+    <button onclick="displayTotal()">Get Total</button>
+    <p id="totalOutput"></p>
+  </section>
+
+  <!-- 🔁 Part 3: Loops -->
+  <section>
+    <h2>Available Products</h2>
+    <button onclick="listProducts()">Show Products</button>
+    <ul id="productList"></ul>
+  </section>
+
+  <!-- 🌐 Part 4: DOM Interaction -->
+  <section>
+    <h2>Toggle Offer</h2>
+    <button onclick="toggleOffer()">Toggle Offer</button>
+    <p id="offerText">🎉 Special Offer: Buy 2 Get 1 Free!</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
